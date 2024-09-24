@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Header section with navigation menu -->
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="benefits.html">Benefits</a></li>
+                <li class="nav-item">
+                    <a href="todoList.html">Interactive To-Do List</a>
+                </li>
+                <li class="nav-item"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <div class="container">
+        <!-- Container for task statistics and input form -->
+        <div class="stats-container">
+            <div class="details">
+                <!-- Section displaying app title, status, and progress bar -->
+                <h1>ToDo App</h1>
+                <p>keet it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <!-- Display area for task numbers -->
+                <p id="numbers">0 / 0</p>
+            </div>
+        </div>
+        <!-- Form for adding new tasks -->
+        <form action="">
+            <div class="inputContainer">
+                <div class="input">
+                    <input id="taskInput" type="text" placeholder=" Write your task" />
+                </div>
+                <div class="btnSubmit">
+                    <button id="newTask" type="submit">+</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- List to display tasks -->
+        <ul id="task-list"></ul>
+    </div>
+    <footer>
+        <p>
+            Contact Us | Follow us on social media | &copy; 2024 ToDo - Done Ltd
+        </p>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/navSelection.js"></script>
+    <!-- List to display tasks -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+
+</html>

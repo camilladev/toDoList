@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!-- Header section with navigation menu -->
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="benefits.html">Benefits</a></li>
+                <li class="nav-item"><a href="todoList.html">Interactive To-Do List</a></li>
+                <li class="nav-item"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Main content section for the contact form -->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please fill out the form below and we'll get in touch with you as soon as
+            possible.</p>
+        <!-- Contact form for user input -->
+        <form action="#" method="post">
+            <div class="row">
+                <div class="col">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="col">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="col">
+                    <!-- Textarea for the message content -->
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <!-- Submit button for the form -->
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/navSelection.js"></script>
+</body>
+
+</html>
